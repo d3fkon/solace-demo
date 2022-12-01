@@ -7,6 +7,7 @@ import {
   Box,
   Button,
   ButtonGroup,
+  Center,
   Container,
   Flex,
   HStack,
@@ -192,6 +193,19 @@ export default function Home() {
               </Flex>
             </Box>
           </Box>
+        </Box>
+        <Box mt="30vh">
+          <Center>
+            <Text
+              fontSize={'4xl'}
+              fontWeight="light"
+              bg="blackAlpha.400"
+              borderRadius={'2xl'}
+              p="4"
+            >
+              Client dApp content
+            </Text>
+          </Center>
         </Box>
       </Box>
     </>
