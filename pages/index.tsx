@@ -178,7 +178,7 @@ export default function Home() {
                 size="sm"
                 disabled={username === ""}
               >
-                Secondary Action
+                Connect
               </Button>
             </ModalFooter>
           </ModalContent>
